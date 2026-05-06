@@ -1,178 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sarrah Belhadj Ali Portfolio</title>
 
-<title>Sarrah Belhadj Ali | Odoo Developer</title>
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:Arial, sans-serif;
+    }
 
-<style>
+    body{
+      background:#f4f4f4;
+      color:#222;
+      line-height:1.6;
+    }
 
-body{
-    margin:0;
-    font-family:Arial, sans-serif;
-    background:#f4f4f4;
-    color:#333;
-}
+    header{
+      background:#18233b;
+      color:white;
+      text-align:center;
+      padding:40px 20px;
+    }
 
-.container{
-    max-width:1000px;
-    margin:auto;
-    background:white;
-    padding:40px;
-}
+    header h1{
+      font-size:42px;
+      margin-bottom:10px;
+    }
 
-.hero{
-    text-align:center;
-    padding:40px 20px;
-    background:#1f2937;
-    color:white;
-}
+    header p{
+      font-size:18px;
+      margin:6px 0;
+    }
 
-.hero h1{
-    margin:0;
-    font-size:42px;
-}
+    header a{
+      color:#4ea3ff;
+      text-decoration:none;
+      font-weight:bold;
+    }
 
-.hero p{
-    font-size:18px;
-    margin-top:10px;
-}
+    .container{
+      width:90%;
+      max-width:1000px;
+      margin:30px auto;
+      background:white;
+      padding:40px;
+      border-radius:10px;
+      box-shadow:0 2px 10px rgba(0,0,0,0.1);
+    }
 
-.section{
-    margin-top:50px;
-}
+    h2{
+      margin-bottom:20px;
+      color:#18233b;
+      border-bottom:2px solid #eee;
+      padding-bottom:10px;
+    }
 
-.section h2{
-    border-bottom:2px solid #ddd;
-    padding-bottom:10px;
-    color:#111827;
-}
+    .section{
+      margin-bottom:40px;
+    }
 
-.skills{
-    display:flex;
-    flex-wrap:wrap;
-    gap:10px;
-}
+    .skills{
+      display:flex;
+      flex-wrap:wrap;
+      gap:12px;
+    }
 
-.skill{
-    background:#2563eb;
-    color:white;
-    padding:10px 15px;
-    border-radius:20px;
-    font-size:14px;
-}
+    .skill{
+      background:#2563eb;
+      color:white;
+      padding:10px 16px;
+      border-radius:20px;
+      font-size:14px;
+    }
 
-.project{
-    background:#f9fafb;
-    padding:20px;
-    border-radius:10px;
-    margin-top:20px;
-}
+    .project{
+      background:#f9fafb;
+      padding:25px;
+      border-radius:10px;
+      margin-bottom:20px;
+      border:1px solid #eee;
+    }
 
-.footer{
-    margin-top:60px;
-    text-align:center;
-    color:gray;
-}
+    .project h3{
+      margin-bottom:10px;
+      color:#111827;
+    }
 
-</style>
+    footer{
+      text-align:center;
+      padding:30px;
+      color:#666;
+      font-size:14px;
+    }
+
+    @media(max-width:768px){
+
+      header h1{
+        font-size:32px;
+      }
+
+      .container{
+        padding:25px;
+      }
+    }
+  </style>
 </head>
 
 <body>
 
-<div class="hero">
-    <h1>Sarrah Belhadj Ali</h1>
-    <p>Odoo Developer | ERP Solutions | Python Developer</p>
-    <p>📍 Milwaukee, WI | 📞 414-317-9190</p>
-</div>
+<header>
+  <h1>Sarrah Belhadj Ali</h1>
+
+  <p>Odoo Developer | ERP Solutions | Python Developer</p>
+
+  <p>📍 Milwaukee, WI | 📞 414-317-9190</p>
+
+  <p>
+    <a href="https://github.com/sadoksarra" target="_blank">
+      GitHub Profile
+    </a>
+  </p>
+</header>
 
 <div class="container">
 
-<div class="section">
+  <section class="section">
     <h2>About Me</h2>
 
     <p>
-        Software Engineer and Odoo Developer with hands-on experience
-        customizing ERP workflows, debugging production issues,
-        testing deployments, and improving operational efficiency
-        across business modules including Sales, Inventory,
-        Accounting, Projects, and RFQ management.
+      Odoo Developer with hands-on experience customizing ERP workflows,
+      debugging production issues, testing deployments, and improving
+      operational efficiency across Sales, Inventory, Accounting,
+      Projects, and RFQ management.
     </p>
+
+    <br>
 
     <p>
-        Experienced in Python, PostgreSQL, JavaScript, XML/QWeb,
-        workflow automation, and ERP customization.
+      Experienced in Python, PostgreSQL, JavaScript, XML/QWeb,
+      workflow automation, ERP customization, and production validation.
     </p>
-</div>
 
-<div class="section">
+    <br>
+
+    <p>
+      Worked with ERP modules including Sales, Inventory, Invoicing,
+      RFQ Management, BoM workflows, Project dashboards,
+      and workflow validation.
+    </p>
+  </section>
+
+  <section class="section">
     <h2>Technical Skills</h2>
 
     <div class="skills">
-        <div class="skill">Odoo</div>
-        <div class="skill">Python</div>
-        <div class="skill">PostgreSQL</div>
-        <div class="skill">JavaScript</div>
-        <div class="skill">XML / QWeb</div>
-        <div class="skill">Git & GitHub</div>
-        <div class="skill">REST APIs</div>
-        <div class="skill">ERP Workflows</div>
-        <div class="skill">Debugging</div>
-        <div class="skill">Testing</div>
+      <div class="skill">Odoo</div>
+      <div class="skill">Python</div>
+      <div class="skill">PostgreSQL</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">XML / QWeb</div>
+      <div class="skill">Git & GitHub</div>
+      <div class="skill">REST APIs</div>
+      <div class="skill">ERP Workflow Customization</div>
+      <div class="skill">Debugging & Testing</div>
+      <div class="skill">Production Validation</div>
+      <div class="skill">Regression Testing</div>
     </div>
-</div>
+  </section>
 
-<div class="section">
+  <section class="section">
     <h2>Projects & Experience</h2>
 
     <div class="project">
-        <h3>ERP Workflow Optimization</h3>
+      <h3>ERP Workflow Optimization</h3>
 
-        <p>
-            Worked on ERP improvements related to RFQ workflows,
-            invoicing validation, project dashboards, and
-            operational automation.
-        </p>
+      <p>
+        Worked on ERP improvements related to RFQ workflows,
+        invoicing validation, project dashboards,
+        and operational automation.
+      </p>
     </div>
 
     <div class="project">
-        <h3>Production Validation & Testing</h3>
+      <h3>Production Validation & Testing</h3>
 
-        <p>
-            Performed regression testing, issue investigation,
-            deployment validation, and production support
-            for ERP implementations.
-        </p>
+      <p>
+        Performed regression testing, issue investigation,
+        deployment validation, and production support
+        for ERP implementations.
+      </p>
     </div>
 
     <div class="project">
-        <h3>Sales & Inventory Customization</h3>
+      <h3>Sales & Inventory Customization</h3>
 
-        <p>
-            Assisted in debugging and validating Sales Order,
-            inventory, and invoicing workflows to improve
-            business process efficiency.
-        </p>
+      <p>
+        Assisted in debugging and validating Sales Order,
+        Inventory, and invoicing workflows to improve
+        business process efficiency.
+      </p>
     </div>
 
-</div>
+    <div class="project">
+      <h3>ERP Requirement Analysis & Workflow Support</h3>
 
-<div class="section">
-    <h2>LinkedIn</h2>
+      <p>
+        Analyzed ERP workflow requirements,
+        investigated production issues,
+        collaborated with stakeholders,
+        and proposed workflow improvements
+        for operational processes.
+      </p>
+    </div>
+
+  </section>
+
+  <section class="section">
+    <h2>Professional Links</h2>
 
     <p>
-        Add your LinkedIn profile link here later.
+      LinkedIn profile coming soon.
     </p>
-</div>
 
-<div class="footer">
+    <br>
+
     <p>
-        Portfolio created by Sarrah Belhadj Ali
+      Project details are generalized to respect client confidentiality.
     </p>
-</div>
+
+  </section>
 
 </div>
+
+<footer>
+  ©️ 2026 Sarrah Belhadj Ali
+</footer>
 
 </body>
 </html>
